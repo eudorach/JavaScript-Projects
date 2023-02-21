@@ -27,3 +27,19 @@ function modulus_Operator() {
     var simple_Math3 = 25%6;
     document.getElementById("Math_6") .innerHTML = "When you divide 25 by 6 you have a remainer of: "+ simple_Math3;
 }
+
+function negation_Operator() {
+    var x=10;
+    document.getElementById("Math_7") .innerHTML = -x;
+}
+
+var X =5;
+X++;
+document.write(X);
+document.write("<br>");
+var Y=5.25;
+Y--;
+document.write(Y);
+
+window.alert(Math.random()); //to return a random number between 0 and 1
+//if want to display a random number in a range (ex. 0 and 100), (Math.random() *100);
