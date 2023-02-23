@@ -34,3 +34,13 @@ var Rachel=new Family("Rachel", 29, "Self/Daughter");
 function myFamily() {
     document.getElementById("New_and_This") .innerHTML="My mother's name is " +Rebekah.Family_Name +" and she is "+Rebekah.Family_Age+" years old.";
 }
+
+function count_Fxn() {
+    document.getElementById("Nested_Function") .innerHTML=count();
+    function count() {
+        var starting_point = 9;
+        function plus_one() {starting_point += 1};
+        plus_one();
+        return starting_point;
+    }
+}
