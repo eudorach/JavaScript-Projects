@@ -13,3 +13,13 @@ function slice_method() {
     var section=sentence.slice(23,39);
     document.getElementById("slice") .innerHTML=section + position;
 }
+
+function string_method() {
+    var x=280;
+    document.getElementById("to_string").innerHTML=x.toString();
+}
+
+function precision_fnx() {
+    var x=1234.2032498573246839274189732;
+    document.getElementById("precision").innerHTML=x.toPrecision(15);
+}
